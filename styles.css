@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  background: linear-gradient(150deg, #4169E1, #87CEEB);
+  color: white;
+  font-family: Quicksand,arial;
+  font-size: 16px;
+  margin-bottom: 2em;
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.glassmorp-form {
+  width: 80%;
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  margin: 0 auto;
+  max-width: 500px;
+  min-width: 300px;
+  padding-bottom: 1.5em;
+}
+
+fieldset {
+  border: none;
+  padding: 1rem ;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+input, textarea, select {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 4px;
+  min-height: 3em;
+  margin-top: 8px;
+  color: white;
+  font-family: Quicksand, arial;
+}
+
+.inline {
+  display: inline;
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+option {
+  background: rgba(255, 255, 255, 0.2);
+  color: black;
+}
+
+textarea {
+  min-height: 5em;
+}
+
+textarea::placeholder {
+  color: white;
+  padding: 8px 8px;
+  opacity: 0.5;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin:  auto;
+  min-width: 200px;
+  max-width: 300px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+input[type="submit"]:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+input[type="submit"]:active {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+input::placeholder {
+  color: white;
+  padding-left: 8px;
+  opacity: 0.5;
+  font-weight: 300;
+}
+
+.replace-phone {
+  padding-bottom: 0;
+}
+
+.middle {
+  padding-top: 0px;
+}
+
+select {
+  opacity: 0.5;
+}
+
